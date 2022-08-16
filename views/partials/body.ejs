@@ -1,0 +1,72 @@
+<body class="home">
+  <div id="fullpage">
+    <div id="particles" class="view intro-2 square section">
+      <div class="mask rgba-black-light  full-bg-img">
+        <%- include('nav') %> 
+
+        <div class="flex-center content-box">
+          <div id="container content">
+            <h1 class="judul text-white text-center font-weight-bolder mx-auto my-1" style="font-size: 2rem">I'm</h1>
+            <h1 class="judul text-white text-center font-weight-bolder animated pulse slower infinite mx-auto my-1"
+              style="font-size: 5rem">S E V 6 N
+            <h1 class="Text my-5 judul text-white text-center font-weight-bolder mx-auto my-1">& I'm a <span
+                class="typing"></span></h1>
+            <div class="row d-flex justify-content-center my-5" role="group">
+              <a href="<%= config.links.github %>" target="_blank"
+                class="buton text-white waves-efect font-weight-bolder mr-4 animated flipInX slow"
+                style="font-size: 3rem"><i class="fab fa-github"></i></a>
+              <a href="<%= config.links.discord %>" target="_blank"
+                class="buton text-white  waves-efect font-weight-bolder mx-4 animated flipInX slow"
+                style="font-size: 3rem"><i class="fab fa-discord"></i></a>
+              <a href="<%= config.links.youtube %>" target="_blank"
+                class="buton text-white waves-efect font-weight-bolder ml-4 animated  flipInX slow"
+                style="font-size: 3rem"><i class="fab fa-youtube"></i></a>
+              <a href="<%= config.links.instagram %>" target="_blank"
+                class="buton text-white waves-efect font-weight-bolder ml-4 animated flipInX slow"
+                style="font-size: 3rem"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="particles2" class="view card-height">
+      <div class="mask rgba-black-light">
+        <%- include('mywork') %> 
+      </div>
+    </div>
+    <div id="particles3" class="view">
+      <div class="mask rgba-black-light">
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".card-glare1"), {
+      max: 20,
+      speed: 350,
+      glare: true,
+    });
+    VanillaTilt.init(document.querySelector(".card-glare2"), {
+      max: 20,
+      speed: 350,
+      glare: true,
+    });
+    VanillaTilt.init(document.querySelector(".card-glare3"), {
+      max: 20,
+      speed: 350,
+      glare: true,
+    });
+    
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll(".card-max"));
+  </script>
+</body>

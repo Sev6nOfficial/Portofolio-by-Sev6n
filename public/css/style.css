@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+html,
+body,
+.view {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.card-height {
+  height: 150vh;
+}
+@media only screen and (max-width: 669px) {
+  .card-height {
+    height: 250vh;
+  }
+}
+.view {
+  background: url("../img/bg-min.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-box {
+  padding-bottom: 100px !important;
+  z-index: 20;
+}
+
+#myLikes {
+  color: #fff;
+  margin-top: 50px;
+}
+#myLikes .portfolio-item {
+  text-align: center;
+}
+
+#myLikes .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#myLikes .portfolio-link .fa {
+  padding: 15px;
+  font-size: 7em;
+  color: #ffffff;
+  transform: translateZ(20px);
+}
+
+.card-max {
+  width: 300px;
+  height: 450px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  margin: 10px 10px;
+  -webkit-box-shadow: 0px 14px 24px 0px rgba(46,46,46,0.75); 
+  box-shadow: 0px 14px 24px 0px rgba(46,46,46,0.75);
+}
+
+.card-max article {
+  padding: 0 10px;
+}
+@media only screen and (max-width: 370px) {
+  .judul {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .judul {
+    font-size: 55px !important;
+  }
+}
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+  width: 0px;
+}

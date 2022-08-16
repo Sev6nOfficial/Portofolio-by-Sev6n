@@ -1,0 +1,14 @@
+{
+    "port": "3000",
+    "links": {
+        "github": "https://github.com/NotLuca/",
+        "discord": "https://dsc.gg/kena",
+        "youtube": "https://www.youtube.com/channel/UCtWqvtJSK4SjK63ALraZuBw",
+        "instagram": "undefined"
+    },
+    "cardtext": {
+        "card1": "undefined",
+        "card2": "undefined",
+        "card3": "undefined"
+    }
+}
