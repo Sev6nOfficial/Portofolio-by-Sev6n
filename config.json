@@ -1,9 +1,9 @@
 {
     "port": "3000",
     "links": {
-        "github": "https://github.com/NotLuca/",
-        "discord": "https://dsc.gg/kena",
-        "youtube": "https://www.youtube.com/channel/UCtWqvtJSK4SjK63ALraZuBw",
+        "github": "",
+        "discord": "",
+        "youtube": "",
         "instagram": "undefined"
     },
     "cardtext": {
