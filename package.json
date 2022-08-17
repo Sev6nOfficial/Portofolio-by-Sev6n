@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "Portofolio",
   "version": "1.0.0",
   "description": "This is the best portofolio that I coded!",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon ."
   },
   "keywords": [],
-  "author": "SkittlesDev",
+  "author": "Sev6n",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^13.3.1",
